@@ -1,0 +1,14 @@
+version: '3.0'
+services:
+  bloo-ssot:
+    build:
+      context: ./
+      dockerfile: ./image/Dockerfile
+    restart: always
+    ports:
+      - 5432:5432
+    volumes:
+      - "./data:/var/lib/postgresql/data"
+    environment:
+      - POSTGRES_PASSWORD=secret
+      - POSTGRES_DB=bloo

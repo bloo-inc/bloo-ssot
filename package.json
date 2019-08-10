@@ -1,0 +1,24 @@
+{
+  "name": "bloo-ssot",
+  "version": "1.0.0",
+  "description": "Single Source of Truth Database & Controller",
+  "main": "app.js",
+  "scripts": {
+    "migrations": "knex migrate:latest --env container"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloo-inc/bloo-ssot.git"
+  },
+  "author": "Tom Gouder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bloo-inc/bloo-ssot/issues"
+  },
+  "homepage": "https://github.com/bloo-inc/bloo-ssot#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "knex": "^0.19.1",
+    "pg": "^7.12.1"
+  }
+}
