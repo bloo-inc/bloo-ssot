@@ -29,5 +29,4 @@ module.exports = {
       tableName: 'bloo_migrations'
     }
   }
-
 };
